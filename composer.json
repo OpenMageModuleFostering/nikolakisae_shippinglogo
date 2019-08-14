@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Nikolakisae_ShippingLogo",
+    "type": "magento-module",
+    "license": "Open-Software-License-(OSL)",
+    "homepage": "",
+    "description": "Shipping Logo extension for Magento",
+    "authors": [
+    {
+        "name": "Niko K",
+        "email": "info@nikolakisae.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
