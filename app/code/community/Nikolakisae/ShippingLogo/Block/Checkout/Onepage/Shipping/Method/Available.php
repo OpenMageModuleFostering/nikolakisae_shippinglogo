@@ -21,10 +21,10 @@
 class Nikolakisae_ShippingLogo_Block_Checkout_Onepage_Shipping_Method_Available extends Mage_Checkout_Block_Onepage_Shipping_Method_Available {
 
     public function getTitleImage($code) {
-        
+
         $imageLogo = '';
         if (file_exists(Mage::getBaseDir('media') . DS . 'shipping' . DS . $code . DS . Mage::getStoreConfig('carriers/' . $code . '/image')) && Mage::getStoreConfig('carriers/' . $code . '/image')) {
-            $imageLogo = '<img src="' . Mage::getBaseUrl('media') . 'shipping/' . $code . '/' . Mage::getStoreConfig('carriers/' . $code . '/image') . '">';
+            $imageLogo = '<img src="' . Mage::getBaseUrl('media') . 'shipping/' . $code . '/' . Mage::getStoreConfig('carriers/' . $code . '/image') . '" style="width:100%;" border="0" alt="Null">';
         }
 
         if ($imageLogo != '' && Mage::getStoreConfig('carriers/' . $code . '/display_options') == 2) {
