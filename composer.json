@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/Nikolakisae_ShippingLogo",
+    "name": "openmage-module-fostering\/nikolakisae_shippinglogo",
     "type": "magento-module",
-    "license": "Open-Software-License-(OSL)",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "Shipping Logo extension for Magento",
     "authors": [
